@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <iostream>
-#include <locale.h>
 
 using namespace std;
 
@@ -127,7 +126,6 @@ Matrix Matrix::operator-(const Matrix& other)
 
 int main()
 {
-	setlocale(LC_ALL, " ");
 	
 	Matrix tab1(3, 2);
 	Matrix tab2(3, 2);
